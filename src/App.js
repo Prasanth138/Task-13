@@ -1,20 +1,20 @@
-import './App.css'
-import React, { useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
-import Dashboard from './components/DashboardPage/Dashboard'
-import ButtonPage from './components/ComponentsPage/ButtonsPage/ButtonPage'
-import Cards from './components/ComponentsPage/CardsPage/Cards'
-import Colors from './components/UtilitiesPage/ColorsPage/Colors'
-import Borders from './components/UtilitiesPage/BordersPage/Borders'
-import Animations from './components/UtilitiesPage/AnimationsPage/Animations'
-import Others from './components/UtilitiesPage/OthersPage/Others'
-import Login from './components/AddonPages/Login'
-import Register from './components/AddonPages/Register'
-import ForgotPassword from './components/AddonPages/ForgotPassword'
-import ErrorPage from './components/AddonPages/ErrorPage'
-import BlankPage from './components/AddonPages/BlankPage'
-import Charts from './components/ChartsPage/Charts'
-import Tables from './components/TablesPage/Tables'
+import './App.css';
+import React, { useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import Dashboard from './components/DashboardPage/Dashboard';
+import ButtonPage from './components/ComponentsPage/ButtonsPage/ButtonPage';
+import Cards from './components/ComponentsPage/CardsPage/Cards';
+import Colors from './components/UtilitiesPage/ColorsPage/Colors';
+import Borders from './components/UtilitiesPage/BordersPage/Borders';
+import Animations from './components/UtilitiesPage/AnimationsPage/Animations';
+import Others from './components/UtilitiesPage/OthersPage/Others';
+import Login from './components/AddonPages/Login';
+import Register from './components/AddonPages/Register';
+import ForgotPassword from './components/AddonPages/ForgotPassword';
+import ErrorPage from './components/AddonPages/ErrorPage';
+import BlankPage from './components/AddonPages/BlankPage';
+import Charts from './components/ChartsPage/Charts';
+import Tables from './components/TablesPage/Tables';
 
 function App() {
   const [open, setOpen] = useState(false);
