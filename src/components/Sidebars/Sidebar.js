@@ -29,7 +29,7 @@ const Sidebar = ({ sidebarToggle, setSidebarToggle, handleSidebar,handleOpen,han
       {/* <!-- Sidebar - Brand --> */}
       <a
         className="sidebar-brand d-flex align-items-center justify-content-center"
-        href="index.html"
+        href="/"
       >
         <div className="sidebar-brand-icon rotate-n-15">
           <i className="fas fa-laugh-wink"></i>
